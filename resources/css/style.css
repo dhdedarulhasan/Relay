@@ -1,0 +1,452 @@
+/* ======================================
+
+Template Name: TINYONE
+Template URI: G:\New Tutorial\WD\UY Lab\Files\07.Project
+Author: Dedarul Hasan
+Author URI: https://www.facebook.com/WhiteDevil2k/
+Version: 1.0
+Description: An awesome personal blog template.
+Support: mddedarulhasan@gmail.com
+
+========================================*/
+
+/* 
+color:  #042327
+        #12e94e
+        #F4A664
+        #12CB44
+        #00474C
+        #95F2B8
+        #F9F3EC
+*/
+
+/* ======================================
+
+CSS INDEX
+---------
+1.  Google Fonts
+2.  Common Css
+3.  Reusable
+4.  Menubar Css
+5.  Banner Css
+6.  Icon Css
+7.  Slider Css
+8.  Security Css
+9.  Get Start Css
+10. Footer Css
+
+========================================*/
+
+
+/*==================================== 
+            1. Google Font Css
+====================================*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
+
+
+
+/*==================================== 
+            2. Common Css
+====================================*/
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    font-size: 62.5%;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+div.container{
+    max-width: 142.4rem !important;
+}
+/*==================================== 
+            3. Reusable Css Start
+====================================*/
+
+
+/*==================================== 
+            4.  Menubar Css Start
+====================================*/
+.navbar{
+    font-size: 1.6rem;
+    padding: 2rem 0;
+    background-color: #042327 !important;
+}
+/* sticky menu css start*/
+nav.uk-sticky-below{
+    background-color: #fff !important;
+    box-shadow: 0rem .3rem .6rem #00000020;
+}
+nav.uk-sticky-below .navbar-nav .nav-item .nav-link{
+    color:#042327 !important;
+}
+nav.uk-sticky-below .navbar-nav .nav-item .login{
+    color: #fff !important;
+    background-color:#00474C !important;
+}
+nav.uk-sticky-below .navbar-brand img {
+    display: none !important;
+}
+/* sticky menu css End*/
+
+.navbar .navbar-brand img{
+    width: 12rem;
+    padding-right: 2rem;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    padding-right: 2rem;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #F4A664;
+}
+.navbar .navbar-nav .nav-item .login{
+    background-color: #fff;
+    color: #000;
+    border-radius: 1rem;
+    padding-left: 2.5rem;
+}
+.navbar .navbar-nav .nav-item .signup{
+    color: #000;
+    background-color: #12e94e; 
+    border-radius: 1rem;
+    padding-left: 2rem;
+    margin-left: 1.5rem;
+}
+.navbar .navbar-nav .nav-item .signup:hover{
+    color: #000;
+}
+.navbar .navbar-nav .nav-item .login:hover{
+    color: #000;
+}
+
+
+/*==================================== 
+            5.  Banner Css Start
+====================================*/
+.banner{
+    background-color: #042327;
+    padding-top: 19rem;
+    padding-bottom: 7rem;
+    color: #fff;
+}
+.banner_content h1{
+    font-size: 6rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #fff;
+}
+.banner_content p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.banner_btn{
+    padding: 2rem;
+    font-size: 1.6rem;
+    background-color: #12e94e;
+    border: none;
+    border-radius: 1rem;
+    font-weight: 600;
+
+}
+.banner_img img {
+    position: absolute;
+    top: 36.3%;
+    right: 14.7%;
+    height: 45rem;
+}
+.banner_slider{
+    position: relative;
+}
+.banner_sli_content {
+    position: absolute;
+    top: 25.8rem;
+    right: -2rem;
+    background: #00474C;
+    width: 30rem;
+    height: 20rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.banner_sli_content h4 {
+    padding: 2rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 2rem;
+    color: #fff;
+}
+.banner_sli_content p {
+    padding: 1rem 2rem;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.count_squre_left {
+    position: absolute;
+    bottom: 0px;
+    left: -7.9rem;
+    background: #F4A664;
+    width: 8rem;
+    height: 8rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.count_squre_right {
+    position: absolute;
+    bottom: -8rem;
+    right: 21.9rem;
+    background: #F4A664;
+    width: 8rem;
+    height: 8rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+
+/*==================================== 
+            6.  Icon Css Start
+====================================*/
+
+.services {
+    padding: 20rem 1rem 17rem 0;
+}
+.service_head h1 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 4rem;
+}
+.service_icon_content{
+    text-align: center;
+}
+.service_icon_content img{
+    height: 9rem;
+    margin: 8rem 4rem 0 4rem;
+}
+.service_icon_content p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding-top: 3rem;
+    color: #042327;
+    margin-top: 2rem;
+}
+
+
+
+/*==================================== 
+            7. Slider Css Start
+====================================*/
+.slide_bgf{
+    background: #95f2b8;
+    position: relative;
+    height: 75vh;
+}
+.slide_bge{
+    background: #F9F3ED;
+}
+.slide_bgf .uk-card-media-top img {
+    position: absolute;
+    top: 15%;
+    left: 13%;
+}
+.uk-card-body{
+    padding-top: 11rem;
+    padding-left: 1rem;
+}
+.uk-card-default h5{
+    font-size: 1.4rem;
+    color: #F4A664 !important;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.uk-card-default h2{
+    font-size: 4rem;
+    color: #00474c !important;
+    font-weight: 500;
+    font-family: 'Poppins';
+    max-width: 64rem;
+}
+.uk-card-default p{
+    font-size: 1.5rem;
+    color: #042327 !important;
+    font-weight: 400;
+    max-width: 42rem;
+    padding-top: 1.5rem;
+}
+.uk-card-default a{
+    color: #00474c;
+    font-size: 1.6rem;
+    padding-top: 3.5rem;
+    font-weight: 700;
+    display: block;
+}
+.uk-card-default a:hover{
+    color: #00474c;
+}
+polyline{
+    color: #042327;
+    stroke-width: 2;
+}
+
+
+/*==================================== 
+            8. Security Css Start
+====================================*/
+.security{
+    background-color: #00474C;
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+}
+.security_text {
+    color: #fff;
+}
+.security_text h2{
+    padding-top: 10rem;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+}
+.security_text p{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+.security_icons{
+    text-align: center;
+}
+.security_icons .security_icon {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 8rem;
+    background-color: #F4A664;
+}
+.security_icons .security_icon ion-icon{
+    font-size: 4rem;
+    display: inline-block;
+    line-height: 8rem;
+}
+.security_con p{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.services_section{
+    color: #fff;
+    margin-top: 10rem;
+}
+.services_icon{
+    font-size: 5rem;
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #F4A664;
+    margin: 2rem auto;
+}
+.services_content P {
+    padding: 1rem 12rem 2rem 12rem;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+}
+
+
+/*==================================== 
+            9. Get Start Css Start
+====================================*/
+
+.get_start{
+    padding: 19rem 0;
+}
+.get{
+    text-align: center;
+}
+.get h3{
+    font-size: 4rem;
+    color: #00474C;
+    padding-bottom: 4rem;
+}
+.banner_btn:hover{
+    background-color: #12CB44;
+}
+
+
+/*==================================== 
+            10. Footer Css Start
+====================================*/
+.footer{
+    margin-bottom: 5rem;
+}
+.common_footer_head{
+    margin-top: 8rem;
+}
+.common_footer_head h3{
+    margin-bottom: 2rem;
+    color: #F4A664;
+}
+.footer_link {
+    color: #00474c;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    padding-right: 7rem;
+}
+.footer_link a{
+    color: #00474c;
+    font-weight: 500;
+}
+.footer_link p{
+    font-weight: 400;
+}
+.footer_link ul li a{
+    padding-bottom: 1.5rem;
+    display: block;
+    font-weight: 400;
+    color: #252525;
+}
+.copyright p{
+    font-size: 1.4rem;
+    margin-top: 4.5rem;
+    color: #989898;
+}
+.footer_social ul{
+    padding: 0;
+    display: flex;
+    padding-top: 4rem;
+}
+.footer_social ul li{
+    padding-left: 2rem;
+}
+.footer_social ul li a ion-icon{
+    font-size: 2rem;
+    color: #989898;
+}
